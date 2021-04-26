@@ -4,7 +4,7 @@ import { MapContainer, TileLayer, Marker, Popup, useMapEvents } from 'react-leaf
 import { Button } from 'react-bootstrap';
 import axios from 'axios';
 
-const url = 'http://localhost:7000/robotics/lba/Geofence';
+const url = 'http://localhost:7000;
 
 function AddMarkerToClick({saveMarkers}) {  
   const map = useMapEvents ({
